@@ -1,1 +1,4 @@
-# vietoris-rips-rust
+# Rust Vietors Rips persistance module
+
+This project implements a simple implementation of Vietoris-Rips complex for $d=1,2$ and $3$ in Rust. The Vietoris-Rips complex is one of the core algorithms of topological data analysis. By considering a set of points $X$ in $\R^2$ or $\R^3$, the Vietoris Rips complex at a scale $\epislon$ includes a simplex where pairwise distances are $\le 2$. As $\epsilon increseas we obtain a filtration $ \emptyset \le \Rips(\epsilon_0) \le Rips(\epsilon_1$) \le \dots \le Rips(\infty). From this filtration one can compute the persistent homology groups $H_0$ (connected components), $H_1$ (loops) and $H_2$ (voids). The main goal of this project is to construct this homology groups given a set $X$.
+
